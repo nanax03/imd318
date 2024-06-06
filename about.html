@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Added styles for new video section */
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .image-box {
+            width: 70%;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-box video {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Welcome to My Website</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="family.html">My Family</a></li>
+                <li><a href="friends.html">My Friends</a></li>
+                <li><a href="hobbies.html">Hobbies & Interest</a></li>
+                <li><a href="community.html">Community Involvements</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p><strong>Name:</strong> Nurul Aina Sakinah Binti Nor Asmadi</p>
+            <p><strong>Nationality:</strong> Malay</p>
+            <p><strong>Profession:</strong> Student</p>
+            <p><strong>Location:</strong> Penang,Malaysia</p>
+            <p><strong>Contact:</strong> ainazsakinah.03@gmail.com</p>
+            <p><strong>Biography:</strong> Hi, I'm Nurul Aina Sakinah Binti Nor Asmadi, a student from UiTM Kedah. I'm studying Diploma in Information Management. My course focuses on social science. It includes a wide range of branch divisions and specialties, including information management-related IT, records, libraries, and archives.</p>
+        </section>
+        <br>
+        <section class="video">
+            <h2>My Video</h2>
+            <div class="center">
+                <div class="image-box">
+                    <video controls autoplay>
+                        <source src="video/video1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="gallery">
+            <img src="image/picture1.jpg" alt="Description 1">
+            <img src="image/picture2.jpg" alt="Description 2">
+            <img src="image/picture7.jpg" alt="Description 3">
+            <img src="image/picture5.jpg" alt="Description 4">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Asarina Family. All rights reserved.</p>
+    </footer>
+</body>
+</html>
